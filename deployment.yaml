@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: trafficanalytics
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: trafficanalytics
+
+  template:
+    metadata:
+      labels:
+        app: trafficanalytics
+
+    spec:
+      containers:
+      - name: trafficanalytics
+        image: trafficanalytics:latest
+        imagePullPolicy: Never

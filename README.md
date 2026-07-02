@@ -1,11 +1,11 @@
 # TrafficAnalytics
-# 🚦 Smart Transportation & Traffic Analytics System
+# Smart Transportation & Traffic Analytics System
 
 An end-to-end Big Data Analytics project developed using **Apache Spark** and **PySpark** to analyze metro interstate traffic data. The project demonstrates data processing, ETL, Spark SQL, exploratory data analysis (EDA), machine learning, containerization, orchestration, and CI/CD.
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Analyze metro traffic volume using Apache Spark.
 - Perform distributed data processing with PySpark.
@@ -19,7 +19,7 @@ An end-to-end Big Data Analytics project developed using **Apache Spark** and **
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 TrafficAnalytics/
@@ -46,7 +46,7 @@ TrafficAnalytics/
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Apache Spark
 - PySpark
@@ -63,7 +63,7 @@ TrafficAnalytics/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Dataset:** Metro Interstate Traffic Volume
 
@@ -80,7 +80,7 @@ The dataset contains information such as:
 
 ---
 
-## 🚀 Features Implemented
+## Features Implemented
 
 - Spark Session Initialization
 - RDD Operations
@@ -95,7 +95,7 @@ The dataset contains information such as:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository.
 2. Install dependencies:
